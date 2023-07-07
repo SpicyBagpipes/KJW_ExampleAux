@@ -45,6 +45,6 @@ class TAG##_##classname##: JLTS_CloneHelmetSCC_SC {\
 	ARSENALINFO\
 	displayName = [##UNITNAME##] displayNameText;\
 	hiddenSelectionsTextures[] = {\
-		PATHTO(senatecommando\helmet\officer\classname.paa)\
+		PATHTO(senatecommando\helmet\classname.paa)\
 	};\
 };

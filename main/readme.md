@@ -28,7 +28,7 @@ The following should always be taken into account when using this aux template:
 
 ## Getting started
 ### settings.hpp
-The first port of call is to navigate to `main\settings.hpp`. Here you will find the following:
+The first port of call is to navigate to [settings.hpp](settings.hpp). Here you will find the following:
  * #define TAG KJW_ExampleAux
  * #define UNITNAME KJW
  * #define AUTHORS KJW,YourNameHere
@@ -46,7 +46,7 @@ Once you have edited the lines properly, divert your attention to the first 3 li
 #### AUTHORS
     This is a simple list of everybody who has contributed to the mod. Change YourNameHere to your name. Please leave KJW.
 
-Once you have edited the these lines, you should navigate to `main\config.cpp`.
+Once you have edited the these lines, you should navigate to [config.cpp](config.cpp).
 
 ### config.cpp
 In the `config.cpp` file, you should **NOT** touch **ANY** line which begins with a `#`. This could at best break a couple of your classnames in the mod, at worst break your entire aux.
@@ -72,10 +72,10 @@ Macros should be placed in the correct mod section. For example, JLTS macros sho
 ```
 
 ##### classname
-The classname in the macro is automatically prefixed with the tag you defined in `main\settings.hpp`. You do not need to prefix it again.
+The classname in the macro is automatically prefixed with the tag you defined in [settings.hpp](settings.hpp). You do not need to prefix it again.
 
 ##### displayName
-The displayName in the macro is also automatically prefixed with the unit name you defined in `main\settings.hpp`. You do not need to prefix it again.
+The displayName in the macro is also automatically prefixed with the unit name you defined in [settings.hpp](settings.hpp). You do not need to prefix it again.
 ```cpp
 JLTS_BACKPACK_RTO_MINI(classname,displayName)
 //Will produce a RTO mini backpack of classname KJW_ExampleAux_classname and displayName of [KJW] displayName.
