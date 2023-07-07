@@ -15,7 +15,7 @@ class CfgPatches {
             //JLTS
         };
         units[] = {
-            DECLARE(fuckyou)
+            //DECLARE(myuniformhere) Example for "myuniformhere" classname.
         };
     };
     #undef CURRENTCLASSCFGPATCHES
