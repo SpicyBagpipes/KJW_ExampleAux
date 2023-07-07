@@ -1,8 +1,8 @@
 //Do not touch this.
 #include "..\script_component.hpp"
-#define CURRENTMOD ls
+
 #define DATAPATH data\textures\##CURRENTMOD
-#define PATHTO(path) DATAPATH##\path
+#define PATHTO(path) DIRECTORY##\##DATAPATH##\path
 
 #ifdef CURRENTCLASSCFGVEHICLES
 	#define LS_UNIFORM_MARSHALCOMMANDER(classname,displayNameText)\

@@ -18,7 +18,8 @@ class CfgPatches {
             "JLTS_characters_CloneLegions"
         };
         units[] = {
-            //DECLARE(myuniformhere) Example for "myuniformhere" classname.
+            DECLARE(serriasexampleuniform),
+            DECLARE(kjwsexampleuniform)
         };
     };
     #undef CURRENTCLASSCFGPATCHES
@@ -32,12 +33,15 @@ class CfgWeapons {
     //Helmets
 
     #if LSADDON == 1
-        //Example macro usage here.
+        #define CURRENTMOD ls
+        LS_HELMET_TROOPER_REGULAR_P2(serriasexamplehelmet,Example 1)
     #endif
     #if JLTSADDON == 1
-        //Example macro usage here.
+        #define CURRENTMOD jlts
+        JLTS_HELMET_TROOPER(kjwsexamplehelmet,Example)
     #endif
     #if TASADDON == 1
+        #define CURRENTMOD tas
         //Example macro usage here.
     #endif
 
@@ -45,12 +49,15 @@ class CfgWeapons {
     //Vests
 
     #if LSADDON == 1
+        #define CURRENTMOD ls
         //Example macro usage here.
     #endif
     #if JLTSADDON == 1
+        #define CURRENTMOD jlts
         //Example macro usage here.
     #endif
     #if TASADDON == 1
+        #define CURRENTMOD tas
         //Example macro usage here.
     #endif
 
@@ -58,12 +65,15 @@ class CfgWeapons {
     //NVGs
 
     #if LSADDON == 1
+        #define CURRENTMOD ls
         //Example macro usage here.
     #endif
     #if JLTSADDON == 1
+        #define CURRENTMOD jlts
         //Example macro usage here.
     #endif
     #if TASADDON == 1
+        #define CURRENTMOD tas
         //3AS has no NVGs.
     #endif
 
@@ -71,12 +81,15 @@ class CfgWeapons {
     //Uniforms
 
     #if LSADDON == 1
-        //Example macro usage here.
+        #define CURRENTMOD ls
+        LS_UNIFORM_TROOPER(serriasexampleuniform,Example 1)
     #endif
     #if JLTSADDON == 1
-        //Example macro usage here.
+        #define CURRENTMOD jlts
+        JLTS_UNIFORM_TROOPER(kjwsexampleuniform,Example)
     #endif
     #if TASADDON == 1
+        #define CURRENTMOD tas
         //Example macro usage here.
     #endif
     #undef CURRENTCLASSCFGWEAPONS
@@ -90,12 +103,15 @@ class CfgVehicles {
     //Backpacks
 
     #if LSADDON == 1
+        #define CURRENTMOD ls
         //Example macro usage here.
     #endif
     #if JLTSADDON == 1
+        #define CURRENTMOD jlts
         //Example macro usage here.
     #endif
     #if TASADDON == 1
+        #define CURRENTMOD tas
         //Example macro usage here.
     #endif
 
@@ -103,12 +119,15 @@ class CfgVehicles {
     //Uniforms
 
     #if LSADDON == 1
-        //Example macro usage here.
+        #define CURRENTMOD ls
+        LS_UNIFORM_TROOPER(serriasexampleuniform,Example 1)
     #endif
     #if JLTSADDON == 1
-        //Example macro usage here.
+        #define CURRENTMOD jlts
+        JLTS_UNIFORM_TROOPER(kjwsexampleuniform,Example)
     #endif
     #if TASADDON == 1
+        #define CURRENTMOD tas
         //Example macro usage here.
     #endif
     #undef CURRENTCLASSCFGVEHICLES

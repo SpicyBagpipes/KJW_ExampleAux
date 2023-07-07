@@ -1,8 +1,8 @@
 //Do not touch this.
 #include "..\tas\script_component.hpp"
-#define CURRENTMOD tas
+
 #define DATAPATH data\textures\##CURRENTMOD
-#define PATHTO(path) DATAPATH##\path
+#define PATHTO(path) DIRECTORY##\##DATAPATH##\path
 
 #ifdef CURRENTCLASSCFGVEHICLES
 	#define TAS_UNIFORM_PILOTP3(classname,displayNameText)\

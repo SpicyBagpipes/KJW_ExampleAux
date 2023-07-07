@@ -1,8 +1,8 @@
 //Do not touch this.
 #include "..\script_component.hpp"
-#define CURRENTMOD jlts
+
 #define DATAPATH data\textures\##CURRENTMOD
-#define PATHTO(path) DATAPATH##\path
+#define PATHTO(path) DIRECTORY##\##DATAPATH##\path
 
 #define JLTS_BACKPACK_RTO_MINI(classname,displayNameText)\
 class TAG##_##classname##: JLTS_Clone_RTO_pack {\

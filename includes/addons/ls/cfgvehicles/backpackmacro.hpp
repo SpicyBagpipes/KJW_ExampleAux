@@ -1,8 +1,8 @@
 //Do not touch this.
 #include "..\script_component.hpp"
-#define CURRENTMOD ls
+
 #define DATAPATH data\textures\##CURRENTMOD
-#define PATHTO(path) DATAPATH##\path
+#define PATHTO(path) DIRECTORY##\##DATAPATH##\path
 
 #define LS_BACKPACK_CLONE_RTO_RECON(classname,displayNameText)\
 class TAG##_##classname##: SWLB_CEE_Recon_RTO_Backpack {\
