@@ -11,8 +11,11 @@ class CfgPatches {
             "3AS_Characters_Clones",
             "3AS_Characters_Droids",
             //LS
-            "ls_Core"
+            "ls_Core",
             //JLTS
+            "JLTS_characters_CloneArmor",
+            "JLTS_characters_CloneArmor2",
+            "JLTS_characters_CloneLegions"
         };
         units[] = {
             //DECLARE(myuniformhere) Example for "myuniformhere" classname.
