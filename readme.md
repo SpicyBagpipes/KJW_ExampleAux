@@ -2,7 +2,7 @@
 
 Head into the [main](main) folder and read the readme in there.
 
-# How best to develop with this example aux.
+# How best to develop with this example aux
 *This is aimed towards newcomers to GitHub. This is not the "best" workflow, but is simply the easiest way for newcomers to develop on the platform.*
 
 Fork this GitHub project (the "Fork" button just above and to the right of the `<> Code` button). This will create a fork that you will use to update your aux mod.
