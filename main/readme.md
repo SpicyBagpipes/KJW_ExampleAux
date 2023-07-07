@@ -25,6 +25,7 @@ The template contains an example for each possible macro including textures. You
 The following should always be taken into account when using this aux template:
  * Classnames (anything you are told is a classname or the line begins with `class`) must NEVER begin with a number. This can break a variety of things, including ACE Medical.
  * The aux is not fully automatic. You must still remember to put the correct macros in the correct places.
+ * This is NOT a replacement for writing config yourself, as it is not optimised for storage space. You may find yourself having to duplicate textures for some classes and such. This is not something I will fix, however you are able to modify the macros if you know what you are doing.
 
 ## Getting started
 ### settings.hpp
