@@ -13,6 +13,9 @@ To make changes to your fork, navigate to the file, then select "Edit this file"
 
 To build your aux mod, ensure you are still in your fork, then select the green `<> Code` button. Then, select Download ZIP. Extract the ZIP file, then build like a regular addon using Addon Builder.
 
+# I've found a bug!
+Please DM me on Discord (`formerlykjw`) or open an Issue.
+
 ## What the hell is a .gitkeep file?
 These can be safely ignored when building your addon. They are purely so the empty folders are downloadable from the repository.
 
