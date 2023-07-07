@@ -1,3 +1,7 @@
+# Okay, what do I do?
+
+Head into the [main](main) folder and read the readme in there.
+
 # How best to develop with this example aux.
 *This is aimed towards newcomers to GitHub. This is not the "best" workflow, but is simply the easiest way for newcomers to develop on the platform.*
 
