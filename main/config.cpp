@@ -18,9 +18,9 @@ class CfgPatches {
             "JLTS_characters_CloneLegions"
         };
         units[] = {
-            DECLARE(serriasexampleuniform),
             DECLARE(kjwsexampleuniform)
         };
+        //Use commas after the brackets in DECLARE() for multiple uniforms.
     };
     #undef CURRENTCLASSCFGPATCHES
 };
@@ -34,7 +34,6 @@ class CfgWeapons {
 
     #if LSADDON == 1
         #define CURRENTMOD ls
-        LS_HELMET_TROOPER_REGULAR_P2(serriasexamplehelmet,Example 1)
     #endif
     #if JLTSADDON == 1
         #define CURRENTMOD jlts
@@ -82,7 +81,6 @@ class CfgWeapons {
 
     #if LSADDON == 1
         #define CURRENTMOD ls
-        LS_UNIFORM_TROOPER(serriasexampleuniform,Example 1)
     #endif
     #if JLTSADDON == 1
         #define CURRENTMOD jlts
@@ -120,7 +118,6 @@ class CfgVehicles {
 
     #if LSADDON == 1
         #define CURRENTMOD ls
-        LS_UNIFORM_TROOPER(serriasexampleuniform,Example 1)
     #endif
     #if JLTSADDON == 1
         #define CURRENTMOD jlts
