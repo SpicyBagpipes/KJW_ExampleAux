@@ -44,6 +44,16 @@ class TAG##_##classname##: ls_gar_barc_helmet {\
 	};\
 };
 
+#define LS_HELMET_ATRT(classname,displayNameText)\
+class TAG##_##_classname##: ls_gar_atrtDriver_helmet {\
+	ARSENALINFO\
+	displayName = [##UNITNAME##] displayNameText;\
+	hiddenSelectionsTextures[] = {\
+		PATHTO(trooper\helmet\classname.paa),\
+		PATHTO(trooper\helmet\1\classname.paa)\
+	};\
+};
+
 #define LS_HELMET_AIRBORNE(classname,displayNameText)\
 class TAG##_##classname##: lsd_gar_airborne_helmet {\
 	ARSENALINFO\

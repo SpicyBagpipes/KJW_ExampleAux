@@ -60,6 +60,10 @@
  * Macro: LS_HELMET_SENATEGUARD(classname,displayNameText)
  * File path(s): Texture in ls\senatecommando\helmet\classname.paa.
  * 
+ * Helmet: ls_gar_atrtDriver_helmet
+ * Macro: LS_HELMET_ATRT(classname,displayNameText)
+ * File path(s): First texture in ls\trooper\helmet\classname.paa. Second texture in ls\trooper\helmet\1\classname.paa.
+ * 
  *
  * 
  * Uniforms: 
