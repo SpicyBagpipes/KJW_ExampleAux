@@ -54,7 +54,10 @@ class SWLB_CEE_P1_MC_Visor; //requires a regular commander version
 class lsd_gar_tanker_nvg;
 class lsd_gar_medicalScanner_nvg;
 class lsd_gar_p1Standard_nvg;
+class lsd_gar_p1MarshalCommander_nvg;
 class lsd_gar_p2MarshalCommander_nvg; //requires a regular commander version
+class lsd_gar_p1Commander_nvg;
+class lsd_gar_p2Commander_nvg;
 class lsd_gar_standard_nvg;
 class lsd_gar_standardSPC_nvg;
 class lsd_gar_medicalScannerSPC_nvg;

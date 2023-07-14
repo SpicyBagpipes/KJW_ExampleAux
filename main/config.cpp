@@ -22,7 +22,7 @@ class CfgPatches {
         };
         //Use commas after the brackets in DECLARE() for multiple uniforms.
         weapons[] = {
-
+            DECLARE(kjwsexamplehelmet)
         };
         //Use DECLARE() here for helmets, vests, uniforms and nvgs -- anything in cfgweapons.
     };
