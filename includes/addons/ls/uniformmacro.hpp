@@ -10,8 +10,8 @@
 		HIDDEN\
 		displayName = [##UNITNAME##] displayNameText Unit;\
 		hiddenSelectionsTextures[] = {\
-			PATHTO(trooper\uniform\classname.paa),\
-			PATHTO(trooper\uniform\1\classname.paa),\
+			PATHTO(marshalcommander\uniform\classname.paa),\
+			PATHTO(marshalcommander\uniform\1\classname.paa),\
 			ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa\
 		};\
 	};
